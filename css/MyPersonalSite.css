@@ -65,7 +65,7 @@ h3 {
   color: #11999e;
 }
 body {
-  font-size: 16px;
+  font-size: 20px;
 }
 .skills {
   margin: 70px auto;
@@ -76,12 +76,12 @@ body {
   text-align: left;
   width: 50%;
 }
-/* #sec_skill {
-  margin-bottom: 0;
-} */
-/* .skill-row p {
-  line-height: 2em;
-} */
+.skill-row h3 {
+  margin: 10px auto;
+}
+.skill-row p {
+  margin: 10px auto;
+}
 .work {
   font-weight: normal;
 }
@@ -106,16 +106,19 @@ body {
 .project-content {
   text-align: center;
   width: 80%;
+  padding-right: 20px;
 }
 .project-content h2 {
   width: 100%;
   font-size: 1.2rem;
+  margin: 15px auto;
 }
 .project-content p {
   width: 80%;
   font-size: large;
   margin-left: 20%;
   text-align: left;
+  margin-top: 15px;
 }
 .project-img {
   width: 30%;
@@ -175,7 +178,7 @@ body {
     top: -50%;
   }
   .self img {
-    width: 30%;
+    max-width: 200px;
   }
   .skills {
     margin: 30px auto;
