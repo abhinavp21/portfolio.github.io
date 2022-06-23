@@ -10,6 +10,10 @@ body {
   padding-top: 70px;
   margin: 50px;
 }
+#my_pic{
+  width: 15%;
+  height: 15%;
+}
 #cloud1 {
   width: 100px;
   position: absolute;
@@ -85,6 +89,10 @@ body {
 .work {
   font-weight: normal;
 }
+/* img{
+  width: 10%;
+  height: 10%;
+} */
 .img-ds {
   float: left;
   margin-right: 30px;
